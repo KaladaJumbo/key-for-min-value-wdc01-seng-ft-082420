@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     lowest_age = low_age
     name_hash.each do |name, age|
       
-      name_hash do |compared_names, compared_ages|
+      name_hash.each do |compared_names, compared_ages|
         if compared_ages <= age
           
           low_age = compared_ages 
