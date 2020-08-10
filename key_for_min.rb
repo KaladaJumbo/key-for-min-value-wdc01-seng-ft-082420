@@ -18,6 +18,8 @@ def key_for_min_value(name_hash)
           
         end
       
+      end
+      
       if low_age <= lowest_age
           
         lowest_age = low_age
