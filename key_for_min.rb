@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
    return nil
   else 
     
+    lowest = name_hash[0]
     low_age = 10000000
     lowest_age = low_age
     name_hash.each do |name, age|
